@@ -1,0 +1,8 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.6.0
+transformers==4.0.0
+pyhocon
+boltons
+sqlitedict
+dgl-cu100
+networkx
