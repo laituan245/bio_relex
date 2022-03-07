@@ -49,4 +49,7 @@ For training, please refer to the scripts `ade_trainer.py` and `trainer.py`. For
 python trainer.py
 ```
 
+**Note**: If you want me to send you UMLS-related files, please email me at tuanml2@illinois.edu (together with some proof that you have access to UMLS). I am not putting UMLS-related files online because of the UMLS licensing issue.
+
+
 There are some redundant code in this repo. I am going to remove them soon.
