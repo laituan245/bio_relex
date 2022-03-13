@@ -41,9 +41,13 @@ def prepare_configs(config_name, dataset, split_nb, verbose=True):
         configs['entity_types'] = BIORELEX_ENTITY_TYPES
         configs['relation_types'] = BIORELEX_RELATION_TYPES
         configs['symmetric_relation'] = True
-    else:
+    elif configs['dataset'] == ADE:
         configs['entity_types'] = ADE_ENTITY_TYPES
         configs['relation_types'] = ADE_RELATION_TYPES
+        configs['symmetric_relation'] = False
+    elif configs['dataset'] == CHEMPROT:
+        configs['entity_types'] = CHEMPROT_ENTITY_TYPES
+        configs['relation_types'] = CHEMPROT_RELATION_TYPES
         configs['symmetric_relation'] = False
 
     # save_dir

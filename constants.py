@@ -25,7 +25,11 @@ BIORELEX_ENTITY_TYPES = [NOT_ENTITY, 'protein', 'protein-family', 'chemical', 'D
                          'RNA-family', 'gene-family', 'fusion-gene', 'parameter']
 BIORELEX_RELATION_TYPES = [NOT_RELATION, -1, 0, 1]
 
-DATASETS = [ADE, BIORELEX]
+CHEMPROT = 'chemprot'
+CHEMPROT_ENTITY_TYPES = [NOT_ENTITY, 'CHEMICAL', 'GENE']
+CHEMPROT_RELATION_TYPES = [NOT_RELATION, "CPR:3", "CPR:4", "CPR:5", "CPR:6"]
+
+DATASETS = [ADE, BIORELEX, CHEMPROT]
 
 # Model Save Path
 BASE_SAVE_PATH = '/shared/nas/data/m1/tuanml2/tmp'

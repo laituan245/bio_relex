@@ -10,7 +10,7 @@ from pymetamap import MetaMap
 from sqlitedict import SqliteDict
 from utils import create_dir_if_not_exist
 
-TEXT2GRAPH = pickle.loads(open(UMLS_TEXT2GRAPH_FILE, 'rb').read().replace(b'\r\n', b'\n'))
+#TEXT2GRAPH = pickle.loads(open(UMLS_TEXT2GRAPH_FILE, 'rb').read().replace(b'\r\n', b'\n'))
 
 # Main Functions
 def umls_search_concepts(sents, filtered_types = MM_TYPES):

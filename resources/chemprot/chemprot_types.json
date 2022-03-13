@@ -1,0 +1,2 @@
+{"entities": {"CHEMICAL": {"short": "CHEMICAL", "verbose": "CHEMICAL"}, "GENE": {"short": "GENE", "verbose": "GENE"}}, 
+"relations": {"CPR:3": {"short": "CPR:3", "verbose": "CPR:3", "symmetric": false},"CPR:4": {"short": "CPR:4", "verbose": "CPR:4", "symmetric": false},"CPR:5": {"short": "CPR:5", "verbose": "CPR:5", "symmetric": false},"CPR:6": {"short": "CPR:6", "verbose": "CPR:6", "symmetric": false}}}

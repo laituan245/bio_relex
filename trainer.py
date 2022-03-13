@@ -93,7 +93,7 @@ if __name__ == "__main__":
     # Parse argument
     parser = ArgumentParser()
     parser.add_argument('-c', '--config_name', default='basic')
-    parser.add_argument('-d', '--dataset', default=BIORELEX, choices=DATASETS)
+    parser.add_argument('-d', '--dataset', default=CHEMPROT, choices=DATASETS)
     parser.add_argument('-s', '--split_nb', default=0) # Only affect ADE dataset
     args = parser.parse_args()
     args.split_nb = int(args.split_nb)

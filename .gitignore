@@ -4,7 +4,8 @@ relevant_types.txt
 non_relevant_types.txt
 knowledge_module_logs.txt
 visualizations/
-resources/
+resources/*
+!resources/chemprot
 logs/
 caches/
 
